@@ -1,0 +1,394 @@
+body{
+    margin:0px;
+    background-color:#1E1E1E;;
+}
+#p1{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 200px;
+    top: 200px;
+    background: #D9D9D9;
+    border-radius: 50%;
+}
+#p1 p{
+   color:black;
+   position: relative;
+   left: 25px;
+   top: -26px;
+   font-size:38px;
+
+}
+#p2 p{
+    position: absolute;
+    width: 195px;
+    height: 36px;
+    left: 165px;
+    top: 270px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 24px;
+    /* or 104% */
+
+
+    color: #FFFFFF;
+
+}
+.p3{
+    position: absolute;
+    width: 402px;
+    height: 94px;
+    left: 34px;
+    top: 320px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+
+
+#i1{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 701px;
+    top: 200px;
+    background: #D9D9D9;
+    border-radius: 50%;
+}
+#i1 p{
+   color:black;
+   position: relative;
+   left: 25px;
+   top: -26px;
+   font-size:38px;
+
+}
+#i2 p{
+    position: absolute;
+    width: 195px;
+    height: 36px;
+    left: 675px;
+    top: 270px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 24px;
+    /* or 104% */
+
+
+    color: #FFFFFF;
+
+}
+.i3{
+    position: absolute;
+    width: 402px;
+    height: 94px;
+    left: 534px;
+    top: 320px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+
+#q1{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 1201px;
+    top: 200px;
+    background: #D9D9D9;
+    border-radius: 50%;
+}
+#q1 p{
+   color:black;
+   position: relative;
+   left: 25px;
+   top: -26px;
+   font-size:38px;
+
+}
+#q2 p{
+    position: absolute;
+    width: 195px;
+    height: 36px;
+    left: 1189px;
+    top: 270px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 24px;
+    /* or 104% */
+
+
+    color: #FFFFFF;
+
+}
+.q3{
+    position: absolute;
+    width: 402px;
+    height: 94px;
+    left: 1034px;
+    top: 320px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+
+/*form */
+
+.formsell{
+    position: absolute;
+    width: 866px;
+    height: 1400px;
+    left: 318px;
+    top: 491px;
+
+    background: #000000;
+    border-radius: 22px;
+}
+
+#capt{
+    position: absolute;
+    width: 614px;
+    height: 84px;
+    left: 166px;
+    top: 49px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+#name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 560px;
+    height: 50px;
+    left: 120px;
+    top: 130px;
+
+    border-radius: 5px;
+}
+
+#categorylist{
+    position: absolute;
+    width: 560px;
+    height: 50px;
+    left: 120px;
+    top: 200px;
+
+    border-radius: 5px;
+}
+
+#quantity{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 560px;
+    height: 50px;
+    left: 120px;
+    top: 270px;
+
+    border-radius: 5px;
+}
+#baseprice{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 560px;
+    height: 50px;
+    left: 120px;
+    top: 340px;
+
+    border-radius: 5px;
+}
+
+#uploadimage{
+    position: absolute;
+    width: 270px;
+    height: 28px;
+    left: 130px;
+    top: 430px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+#image{
+    position: absolute;
+    width: 310px;
+    height: 276px;
+    left: 120px;
+    top: 480px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+#timerlist{
+    position: absolute;
+    width: 560px;
+    height: 50px;
+    left: 120px;
+    top: 780px;
+
+    border-radius: 5px;
+}
+#proddesc{
+    position: absolute;
+    width: 270px;
+    height: 28px;
+    left: 130px;
+    top: 830px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+#textarea{
+    position: absolute;
+    width: 502px;
+    height: 284px;
+    left: 120px;
+    top: 890px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+#featured{
+    position: absolute;
+    width: 270px;
+    height: 28px;
+    left: 130px;
+    top: 1190px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+#featuredyes{
+    position: absolute;
+    left: 200px;
+    top: 1210px;
+}
+#yesradio{
+    position: absolute;
+    width: 270px;
+    height: 28px;
+    left: 225px;
+    top: 1192px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+#featuredno{
+    position: absolute;
+    left: 275px;
+    top: 1210px;
+}
+#noradio{
+    position: absolute;
+    width: 270px;
+    height: 28px;
+    left: 300px;
+    top: 1192px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+#submit{
+    
+    position: absolute;
+    width: 182px;
+    height: 48px;
+    left: 130px;
+    top: 1260px;
+
+    font-family: 'Syne';
+    font-weight: 800;
+    font-size: 16px;
+    color:#FFFFFF;
+
+    background: #151515;
+    border-radius: 5px;
+    cursor:pointer;
+}
+input::placeholder{
+    color:black;
+}

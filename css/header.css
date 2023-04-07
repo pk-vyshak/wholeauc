@@ -1,0 +1,66 @@
+/*header Navigation Bar*/
+.header{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.header ul li{
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;  
+    text-decoration: none;
+}
+.category-icon{
+    position:relative;
+    top:2px;
+    left:5px;
+    
+
+}
+.dropcontent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius:2px;
+}
+.dropcontent .catlink {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.shop:hover .dropcontent{
+    display:block;
+}
+.dropcontent a:hover {background-color: #f1f1f1}
+.header ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+.title{
+    position: absolute;
+    width: 468px;
+    height: 58px;
+    left: 580px;
+    top: 25px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+
+    
+   
+}

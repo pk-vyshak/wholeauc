@@ -1,0 +1,191 @@
+body{
+    margin:0px;
+    background-color:#1E1E1E;;
+}
+.bid-head{
+    position: absolute;
+    width: 1059px;
+    height: 49px;
+    left: 200px;
+    top: 173px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+    text-align:center;
+
+    }
+#image1{
+    position: absolute;
+    width: 506px;
+    height: 524px;
+    left: 81px;
+    top: 313px;
+    border-radius: 15px;
+
+}
+#timer{
+    position: absolute;
+    width: 437px;
+    height: 61px;
+    left: 187px;
+    top: 892px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+    position: absolute;
+    width: 450px;
+    height: 68px;
+    left: 109px;
+    top: 878px;
+
+    background: #6D6666;
+    text-align: center;
+
+}
+#category{
+    position: absolute;
+    width: 409px;
+    height: 39px;
+    left: 717px;
+    top: 313px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+#Quantity{
+    position: absolute;
+    width: 362px;
+    height: 39px;
+    left: 720px;
+    top: 393px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+#base-price{
+    position: absolute;
+    width: 380px;
+    height: 41px;
+    left: 717px;
+    top: 461px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+#description{
+    position: absolute;
+    width: 293px;
+    height: 27px;
+    left: 720px;
+    top: 535px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+#Enter-bid{
+    position: absolute;
+    width: 211px;
+    height: 32px;
+    left: 720px;
+    top: 799px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+#bid-amount{
+    
+    position: absolute;
+    width: 260px;
+    height: 45px;
+    left: 931px;
+    top: 815px;
+
+    background: #D9D9D9;
+    border-radius: 13px;
+}
+#description-con{
+    box-sizing: border-box;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 5px;;
+
+    color: #FFFFFF;
+
+    position: absolute;
+    width: 656px;
+    height: 160px;
+    left: 717px;
+    top: 590px;
+
+    background: #151515;
+    border: 1px solid #FFFFFF;
+    border-radius: 11px;
+}
+
+#submit{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 293px;
+    height: 62px;
+    left: 861px;
+    top: 910px;
+    color:#FFFFFF;
+
+    background: #6D6666;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+}
+#tablebid{
+    background-color:white;
+    position:absolute;
+    width:430px;
+    top:1020px;
+    left:861px;
+}
+#t1 th,td {
+    padding: 15px;
+    text-align: left;
+  }
+#t1 th{
+    border-bottom:1px solid black;
+}

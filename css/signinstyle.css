@@ -1,0 +1,149 @@
+body{
+    margin:0px;
+    background-color:#1E1E1E;;
+}
+#bg1 {
+    position: relative;
+    width: 1550px;
+    height: 950px;
+    left: -28px;
+    top: 215px;
+    background-color: black;
+}
+#bg1 img{
+    width:250px;
+}
+#frm1{
+    text-align:center;
+}
+
+
+/*Arrow Cart Icon Styling*/
+img{
+    width:180px;
+    height:180px;
+    text-align:center;
+    position: absolute;
+    top:100px;
+    left:590px;
+}
+/*User Icon Styling (in Form)*/
+.usericn{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 580px;
+    top: 344.56px;
+    color:white;
+    
+}
+.fa-user-crown{
+    display: block;
+    color:white;
+}
+#namelp::placeholder{
+    
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+#namelp{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 568px;
+    top: 331.56px;
+    color:white;
+    background-color: black;
+    border:1px solid white;
+    border-radius: 8px;
+    text-align:center;
+}
+#frm1 input{
+    text-align:center;
+}
+
+#passlp{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 568px;
+    top: 396.56px;
+    background-color: black;
+    border:1px solid white;
+    border-radius: 8px;
+    color:white;
+    text-align:center;
+
+}
+#passlp::placeholder{
+    
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+}
+/*Password Lock icon Styling (in Form)*/
+#lockicn{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 580px;
+    top: 405.56px;
+
+    color:white;
+    z-index:1;
+}
+#loginbtn{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 568px;
+    top: 484.56px;
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+#lnkfrgtpass{
+    position: absolute;
+    width: 136px;
+    height: 19px;
+    left: 651px;
+    top: 537px;
+    text-decoration: none;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+    border-radius: 18px;
+}
+/* Ellipse */
+
+#elip1{
+    position: relative;
+    width: 438px;
+    height: 438px;
+    left: -10px;
+    top: -230px;
+
+    background: #D9D9D9;
+   
+    clip-path: circle(80% at 0% 0%  );
+    transform: rotateX(180deg);
+}
+
+.error{
+    color:white;
+
+}
+

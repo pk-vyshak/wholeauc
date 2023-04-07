@@ -1,0 +1,146 @@
+body{
+    margin:0px;
+    background-color:#1E1E1E;;
+}
+.formsignup{
+    position: absolute;
+    width: 1550px;
+    height: 980px;
+    left: -38px;
+    top: 140px;
+
+    background: #151515;
+}
+.cartsymbol{
+    position: absolute;
+    width: 141.4px;
+    height: 108px;
+    left: 700px;
+    top: 180px;
+    color:white;
+    font-size:900%;
+
+}
+.signupform{
+    position: absolute;
+    width: 141.4px;
+    height: 108px;
+    left: 651px;
+    top: 370px;
+    padding-top:50px;
+}
+#namein{
+    
+    
+    width: 300px;
+    height: 41.39px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    margin-bottom: 20%;
+    background-color: black;
+    color: #FFFFFF;
+
+}
+#namein::placeholder{
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+#emailin{
+    
+
+
+    width: 300px;
+    height: 41.39px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    margin-bottom: 20%;
+    background-color: black;
+    color: #FFFFFF;
+    
+}
+#emailin::placeholder{
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+#nmbrin{
+   
+
+    
+    width: 300px;
+    height: 41.39px;
+    
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    margin-top:20%;
+    margin-bottom: 20%;
+    background-color: black;
+    color: #FFFFFF;
+
+}
+#nmbrin::placeholder{
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+}
+#passwdin{
+    
+    width: 300px;
+    height: 41.39px;
+
+
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: black;
+    margin-bottom: 20%;
+    color: #FFFFFF;
+}
+#passwdin::placeholder{
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+}
+
+#cnfmin{
+    
+
+    
+    width: 300px;
+    height: 41.39px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    
+    margin-bottom: 20%;
+    background-color: black;
+    color: #FFFFFF; 
+}
+#cnfmin::placeholder{
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+#signup{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 2px;
+    top: 500px;
+    background-color:white;
+    color:black;
+    cursor:pointer;
+
+}

@@ -1,0 +1,94 @@
+.footer{
+     position: absolute;
+     top:150px;
+}
+
+.footerhead{
+    position: absolute;
+    width: 492px;
+    height: 104px;
+    left: 53px;
+    top: 1760px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+}
+
+.footerdef{
+    float:left;
+    position: absolute;
+    width: 340px;
+    height: 28px;
+    left: 53px;
+    top: 1800px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+#companymail{
+    position:relative;
+    font-size: larger;
+    top:-20px;
+}
+.footerleft{
+    float:right;
+    position: absolute;
+    width: 398px;
+    height: 21px;
+    left: 1030px;
+    top: 1817px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+#send-btn{
+    color: #FFFFFF;
+    position: absolute;
+    width: 135px;
+    height: 35px;
+    left:250px;
+
+    background: #000000;
+    border-radius: 22px;
+ 
+}
+input[type=email]
+{
+    
+position: absolute;
+width: 300px;
+height: 35px;
+
+background: #FFFFFF;
+border-radius: 30px;
+}
+#footer-foot{
+    position: absolute;
+    width: 1320px;
+    height: 52px;
+    left: 200px;
+    top: 2022px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FFFFFF
+}

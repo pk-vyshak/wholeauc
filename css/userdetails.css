@@ -1,0 +1,106 @@
+body{
+    margin:0;
+    background:#1E1E1E;
+}
+
+#main-sec{
+    width:600px;
+    height:500px;
+    margin:auto;
+    margin-top:250px;
+    background-color:black;
+    border-radius:18px;
+}
+
+#logo1 img{
+    width:100px;
+    color:white;
+    position:relative;
+    top:-50px;
+    left:240px;
+}
+#table1{
+    text-align:center;
+    position:relative;
+    top:20px;
+    left:110px;
+    
+}
+
+#table1 td,tr,th{
+    padding-bottom: 20px;
+    
+}
+button{
+    background-color:#4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:22px;
+    position:relative;
+    top:80px;
+    left:200px;
+}
+#formElement{
+    position:relative;
+    top:250px;
+    left:130px;
+}
+#pass1{
+    width: 300px;
+    height: 41.39px;
+
+
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: black;
+    margin-bottom: 5%;
+    color: #FFFFFF;
+}
+#pass1::placeholder{
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+}
+#pass2{
+    width: 300px;
+    height: 41.39px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    
+    margin-bottom: 5%;
+    background-color: black;
+    color: #FFFFFF; 
+}
+#pass2::placeholder{
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+}
+#submitbutton{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 2px;
+    top: 220px;
+    background-color:white;
+    color:black;
+    cursor:pointer;
+
+}
+p #dem{
+    color:white;
+    text-align:center;
+    
+}
